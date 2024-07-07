@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+  html,body{
+    width: 100%;
+    height: 100%;
+  }
+
+  .main{
+    width: 100%;
+   }
+  .main .profile{
+    width: 100%;
+    height: 100vh;
+   } 
+    .profile img{
+      width: 100%;
+      height: 100vh;
+    }
+   
+     #name
+     {
+      position: relative;
+      z-index: 1;
+      color: black;
+      padding-left: 400px;
+       margin-top: -500px;
+       font-weight: 900;
+      font-family:Cursive;
+      font-size: 50px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+       
+     }
+     #name .span1{
+
+      color:rgb(87, 29, 29);
+     }
+      
+     #name .span2{
+      color: blueviolet;
+      padding-top: 150px;
+      padding-left: -150px;
+     }
+  
+         .container .row1{
+          display: flex;
+         }
+     .container .row .col1{
+       padding-top: 30px;
+      padding-left: 0;
+ width: 50%;
+   height: 10vh;
+
+      }
+       .col1 img{
+        height: 50vh;
+         margin-top: 3px;
+       }
+
+       .col2{
+        padding-left: 600px;
+       }
+    .col2 img{
+      height: 50vh;
+       margin-top: 3px;
+    }
+
+      
